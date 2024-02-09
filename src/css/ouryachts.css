@@ -1,4 +1,117 @@
 .ouryachts {
+    background: #0e1823;
 }
-.container {
+
+.ouryachts-container {
+    padding: 80px 0;
+}
+
+.ouryachts-title {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 40px;
+}
+
+.ouryachts-card {
+    background: #fbfbfb;
+    padding: 16px;
+    border-radius: 24px;
+    margin-bottom: 40px;
+}
+
+.ouryachts-imeg {
+    border-radius: 24px;
+    margin-bottom: 32px;
+    max-width: 302px;
+}
+
+.ouryachts-item-first {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #1b414b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 16px;
+    gap: 16px;
+}
+
+.ouryachts-item-first::after {
+    content: '';
+    width: 272px;
+    height: 1px;
+    display: block;
+    background-color: rgba(4, 3, 6, 0.1);
+    margin-bottom: 16px;
+}
+
+
+
+.ouryachts-item-second {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.ouryachts-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 16px 16px;
+}
+
+.ouryachts-second-list {
+font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.ouryachts-third-list {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #040306;
+}
+
+
+.ouryachts-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    border-radius: 15px;
+    padding: 14px 31px;
+    width: 141px;
+    height: 46px;
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+@media screen and (max-width: 767px) {
+    
 }
