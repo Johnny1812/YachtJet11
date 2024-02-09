@@ -32,9 +32,8 @@ img {
 
 .container {
   width: 100%;
-  max-width: 320px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 20px;
-  margin-left: 20px;
+  max-width: 375px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
 }
