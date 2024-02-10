@@ -14,12 +14,6 @@
 .header-mobile-opened {
   transform: translateX(0);
 }
-
-.container {
-  max-width: 298px;
-  margin-right: auto;
-  margin-left: auto;
-}
 .header-logo {
   font-weight: 500;
   font-size: 20px;
