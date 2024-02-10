@@ -1,4 +1,86 @@
 .about {
 }
 .container {
+
+}
+
+.aboutus-wrap{
+    border-radius: 24px;
+    width: 100%;
+    background-color: #fbfbfb;
+    padding-top: 40px;
+}
+
+.aboutus-head {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin: 0 20px 40px;
+}
+
+.aboutus-description {
+    margin: 0 20px 20px 20px;
+
+}
+
+.aboutus-description-first {
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 20px;
+}
+
+.aboutus-description-second {
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        width: 375px;
+        max-width: none;
+        padding: 0 32px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .aboutus-wrap {
+        padding-top: 50px;
+    }
+
+    .aboutus-head {
+        font-size: 48px;
+        margin-left: 32px;
+        margin-right: 136px;
+        margin-bottom: 50px;
+    }
+
+    .aboutus-description {
+        margin: 0 316px 50px 32px;
+    }
+
+    .aboutus-description-first {
+        font-size: 23px;
+    }
+
+        
+        
+    
+        
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+    }
 }
