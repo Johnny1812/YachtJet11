@@ -190,8 +190,9 @@ font-family: "Inter", sans-serif;
 
     .ouryachts-container {
     max-width: 1280px;
-    padding: 150px 32px;
+    padding: 150px 50px;
     }
+
 
     .belle-anna-yahts {
     display: block;
@@ -209,7 +210,7 @@ font-family: "Inter", sans-serif;
     }
 
     .ouryachts-common-list {
-        gap: 25px;
+        /* gap: 25px; */
     }
 
     .ouryachts-card {
@@ -217,6 +218,6 @@ font-family: "Inter", sans-serif;
     }
 
     .ouryachts-unit {
-        max-width: 377px;
+        width: calc(100% - 50px) / 3;
     }
 }
