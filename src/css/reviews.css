@@ -1,49 +1,49 @@
 
 
 .reviews {
-   padding: 75px 0;
-
+   padding: 80px 0;
 }
 
-.reviews-list {
-    display: flex;
-    gap: 8px;
-}
+
 
 .reviews-title {
     color: #FBFBFB;
     text-align: center;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 500;
-    line-height: 1.21;
+    line-height: 1;
     letter-spacing: 0.02em;
     margin: 0 auto;
     margin-bottom: 25px;
-    max-width: 854px;
+    /*max-width: 854px;*/
+    max-width: 335px; 
 }
 
 .reviews-item {
-    width: calc((100% - 8px*2)/3);
+    width: 100%;
 
 }
 
 .reviews-text {
     color: #04030666;
     text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.50;
+    line-height: 1.40;
     letter-spacing: 0.02em;
-    margin: 0 auto;
-    margin-bottom: 25px;
-    max-width: 571px;
 }
 
 .reviews-img {
     margin-bottom: 24px;
     max-width: 100%;
     max-height: 100%;
+  
 }
+.icon-victoria  {
+    display: none;
+}
+.icon-ihor{
+    display: none;
+}
+
 
 .list-item-title {
     color: #040306;
@@ -57,14 +57,14 @@
 
 .reviews-text-title {
     color: #FBFBFB;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.28;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: -0.02em;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 75px;
-    max-width: 571px;
+    margin-bottom: 40px;
+    max-width: 335px;
+    opacity: 0.4;
 }
 
 .reviews-icon-wrap {
@@ -72,10 +72,69 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 376px;
-    height: 283px;
+    /*width: 376px;*/
+    width: 335px;
     flex-shrink: 0;
     border-radius: 24px;
-    border: 1px solid #8E8F99;
-    background: #FBFBFB; 
+    background-color: #FBFBFB; 
+    /*padding: 32px 28px;*/
+    padding: 32px 16px;
+}
+
+@media  screen and (max-width: 767px) {
+    .icon-john {
+            margin: 0 auto;
+        }
+    
+}
+@media screen and (min-width: 768px) {
+    .reviews {
+        padding: 150px 0;
+    }
+    .reviews-list {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+        }
+
+.reviews-title {
+
+    font-size: 48px;
+    max-width: 704px;
+}
+
+.icon-victoria {
+    display: block;
+}
+.reviews-text-title {
+font-size: 14px;
+line-height: 1.28;
+margin-bottom: 75px;
+max-width: 571px;
+}
+.reviews-icon-wrap {
+    width: 320px;
+    padding: 32px 8px;
+}
+
+
+}
+
+@media screen and (min-width: 1280px){
+    .reviews-list {
+    
+            gap: 26px;
+        }
+
+.reviews-title {
+max-width: 854px;
+}
+
+.reviews-icon-wrap {
+    width: 380px;
+    padding: 32px 28px; 
+}
+.icon-ihor {
+    display: block;
+}
 }
