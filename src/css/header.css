@@ -1,24 +1,12 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
   border-radius: 8px;
-  padding: 7px 20px;
-  position: fixed;
-  top: 40px;
-  left: 50%;
-  transform: translate(-50%);
-}
-.header-mobile-opened {
-  transform: translateX(0);
-}
-
-.container {
-  max-width: 298px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 15px 29px;
+  margin-top: 20px;
 }
 .header-logo {
   font-weight: 500;
@@ -29,10 +17,12 @@
 .header-btn {
   background-color: transparent;
   padding: 5px;
+  border: none;
 }
 .header-icon {
   display: flex;
   align-items: center;
+  stroke: #1b414b;
 }
 .header-navigation {
   display: none;
@@ -40,6 +30,9 @@
 .header-menu {
   display: flex;
   gap: 4px;
+  align-items: baseline;
+  justify-content: center;
+  padding-bottom: 5px;
 }
 .header-link {
   font-weight: 400;
@@ -62,7 +55,12 @@
 }
 .header-contacts-list {
   display: flex;
+  align-items: baseline;
+  justify-content: center;
   gap: 11px;
+}
+.header-contacts-link {
+  display: flex;
 }
 .header-contacts-icon {
   fill: #1b414b;
@@ -92,14 +90,19 @@
   visibility: visible;
   pointer-events: auto;
 }
+
 .header-mobile-background {
   background-color: #fbfbfb;
   display: flex;
   align-items: center;
-
-  /* justify-content: center; */
+  justify-content: center;
   margin-top: 20px;
   padding: 12px 20px;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
 }
 .header-mobile-logo {
   font-weight: 500;
@@ -110,7 +113,7 @@
 .header-mobile-close {
   margin-left: auto;
   background-color: transparent;
-  /* border: none; */
+  border: none;
   cursor: pointer;
 }
 .header-mobile-menu {
@@ -133,6 +136,9 @@
   background-color: rgba(27, 65, 75, 0.5);
   margin-bottom: 4px;
 }
+.header-mobile-link-blue {
+  background-color: #1b414b;
+}
 .header-mobile-contacts-list {
   display: flex;
   gap: 10px;
@@ -147,12 +153,15 @@
 
 @media screen and (min-width: 375px) {
   .container {
-    max-width: 375px;
+    min-width: 375px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    min-width: 768px;
+  }
+  .header-container {
+    margin-top: 32px;
   }
 
   .header-btn {
@@ -164,9 +173,7 @@
   .header-social-icons {
     display: flex;
   }
-  .header-container {
-    padding: 15px 29px;
-  }
+
   .header-mobile {
     display: none;
   }
@@ -179,6 +186,11 @@
 }
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1280px;
+    min-width: 1280px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
   }
 }
