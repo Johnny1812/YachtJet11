@@ -148,7 +148,6 @@ background: rgba(251, 251, 251, 0.8);
     .advantages-full {
         display: flex;
         gap: 32px;
-        align-items: center;
     }
 
     .advantages-container {
@@ -172,9 +171,12 @@ letter-spacing: -0.02em;
 color: #fbfbfb;
 }
 
-.advantages-photo {
-    max-width: 432px;
-    width: 100%;
+.advantages-picture {
+
+}
+
+.advantages-photo { 
+
 }
 
 }
