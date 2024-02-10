@@ -1,4 +1,215 @@
-.rentyacht {
+body {
+    font-family: "Inter", "Roboto" sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.rentyacht {
+    padding: 80px 0;
+    background-color: #0e1823;;
+}
+
 .container {
+    max-width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.rentyacht-section-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.rentyacht-section-title {
+    font-family: Inter, Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+    color: #fbfbfb;
+    margin-bottom: 40px;
+}
+
+.rentyacht-form {
+}
+
+.rentyacht-form-input-wrap {
+    margin-bottom: 18px;
+}
+
+.rentyacht-form-textarea-wrap {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.rentyacht-form-input {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    padding-left: 18px;
+    width: 100%;
+    height: 42px;
+    font-family: Inter, Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    color: #FFFFFF;
+    background-color: #0e1823;
+}
+
+.textarea {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    padding-left: 18px;
+    padding-top: 18px;
+    width: 100%;
+    height: 108px;
+    font-family: Inter, Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    color: #FFFFFF;
+    background-color: #0e1823;
+    resize: none;
+}
+
+.rentyacht-form-input:focus,
+.textarea:focus {
+    border-color: rgba(251, 251, 251, 0.5);
+}
+
+.rentyacht-form-button {
+    border-radius: 15px;
+    padding: 14px 44px;
+    width: 122px;
+    height: 46px;
+    background-color: #1b414b;
+    font-family: Inter, Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.02em;
+    color: #fbfbfb;
+    cursor: pointer;
+}
+
+.rentyacht-form-button:hover,
+.rentyacht-form-button:focus {
+    color: #1b414b;
+    background-color: #fbfbfb;
+}
+
+.rentyacht-img {
+    margin-top: 80px;
+    width: 100%;
+    height: 412px;
+    border-radius: 24px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .rentyacht {
+        padding: 150px 0;
+    }
+
+    .container {
+        max-width: 768px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+    }
+
+    .rentyacht-section-title {
+        font-size: 48px;
+    }
+
+    .rentyacht-form-input {
+        max-width: 473px;
+        font-size: 14px;
+        line-height: 1.29;
+        height: 54px;
+    }
+
+    .textarea {
+        max-width: 473px;
+        font-size: 14px;
+        line-height: 1.29;
+        height: 116px;
+    }
+
+    .rentyacht-form-button {
+        padding: 18px 75px;
+        width: 194px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 1.1;
+    }
+
+    .rentyacht-img {
+        margin-top: 100px;
+        width: 704px;
+        height: 534px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rentyacht-form-wrap {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 0 auto;
+    }
+
+    .rentyacht-section-wrap {
+        flex-direction: row-reverse;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .rentyacht-img {
+        margin-top: 0;
+        width: 658px;
+        height: 536px;
+    }
+
+    .rentyacht-form-wrap {
+        margin: 0;
+    }
 }
