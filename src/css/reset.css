@@ -1,4 +1,8 @@
 /* Reset styles */
+*{
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -30,10 +34,40 @@ img {
   height: auto;
 }
 
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+body {
+  font-family: Inter, Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #242424;
+  background-color: #0e1823;
+
+}
+
 .container {
-  width: 100%;
   max-width: 320px;
-  padding-right: 16px;
-  padding-left: 16px;
   margin: 0 auto;
+  padding-right: 17px;
+  padding-left: 17px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
 }
