@@ -1,4 +1,222 @@
 .ouryachts {
+    background: #0e1823;
 }
-.container {
+
+.ouryachts-container {
+    padding: 80px 0;
+}
+
+.ouryachts-title {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 40px;
+}
+
+.ouryachts-card {
+    background: #fbfbfb;
+    padding: 16px;
+    border-radius: 24px;
+    margin-bottom: 40px;
+}
+
+.ouryachts-imeg {
+    border-radius: 24px;
+    margin-bottom: 32px;
+    max-width: 302px;
+}
+
+.ouryachts-item-first {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #1b414b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 16px;
+    gap: 16px;
+}
+
+.ouryachts-item-first::after {
+    content: '';
+    width: 272px;
+    height: 1px;
+    display: block;
+    background-color: rgba(4, 3, 6, 0.1);
+    margin-bottom: 16px;
+}
+
+
+
+.ouryachts-item-second {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.ouryachts-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 16px 16px;
+}
+
+.ouryachts-second-list {
+font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.ouryachts-third-list {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #040306;
+}
+
+
+.ouryachts-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    border-radius: 15px;
+    padding: 14px 31px;
+    width: 141px;
+    height: 46px;
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.ouryachts-button:hover,
+.ouryachts-button:focus {
+    color: #1b414b;
+    background-color: #fbfbfb;
+    border: none
+}
+
+@media screen and (max-width: 767px) {
+    
+    .benetti-luxury-yahts {
+        display: none;
+    }
+
+    .belle-anna-yahts {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .belle-anna-yahts {
+    display: none;
+    }
+
+    .ouryachts-container {
+        max-width: 768px;
+        padding: 150px 32px;
+    }
+
+    .ouryachts-title {
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fbfbfb;
+        margin-bottom: 75px;
+    }
+
+    .ouryachts-unseen-text {
+        overflow: hidden;
+        display: none;
+    }
+
+    .ouryachts-common-list {
+        display: flex;
+        gap: 32px;
+        margin-bottom: 50px;
+    }
+
+    .ouryachts-item-first {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .ouryachts-item-second {
+    font-size: 13px;
+    line-height: 1.18;
+    }
+
+    .ouryachts-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 39px;
+    width: 179px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 1.1;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .ouryachts-container {
+    max-width: 1280px;
+    padding: 150px 32px;
+    }
+
+    .belle-anna-yahts {
+    display: block;
+    }
+
+    .ouryachts-title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 714px;
+    }
+
+    .ouryachts-imeg {
+        max-width: 100%;
+        height: 268px;
+    }
+
+    .ouryachts-common-list {
+        gap: 25px;
+    }
+
+    .ouryachts-card {
+        justify-content: center;
+    }
+
+    .ouryachts-unit {
+        max-width: 377px;
+    }
 }
