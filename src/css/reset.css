@@ -39,34 +39,4 @@ p:last-child {
   margin-bottom: 0;
 }
 
-:root {
-  font-family: Inter, Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #242424;
-  background-color: #0e1823;
-}
 
-.container {
-  max-width: 320px;
-  margin: 0 auto;
-  padding-right: 17px;
-  padding-left: 17px;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 0 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 50px;
-  }
-}
