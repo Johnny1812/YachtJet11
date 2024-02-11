@@ -1,5 +1,4 @@
 body {
-    font-family: "Inter", "Roboto" sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     overflow-x: hidden;
@@ -160,6 +159,10 @@ button {
         height: 54px;
     }
 
+    .rentyacht-form-textarea-wrap {
+        margin-bottom: 50px;
+    }
+
     .textarea {
         max-width: 473px;
         font-size: 14px;
@@ -200,6 +203,7 @@ button {
         flex-direction: row-reverse;
         gap: 50px;
         justify-content: center;
+        align-items: center;
     }
 
     .rentyacht-img {
