@@ -1,14 +1,7 @@
 /* ------------mobile------------ */
 .hero {
-  height: 685px;
-  background-image: url(../img/hero-mob.jpg);
-  background-repeat: no-repeat;
-  position: center;
-  background-size: cover;
-  background-position: center;
-  height: 812px;
-  top: -58px;
-  z-index: -1;
+  height: 753px;
+
   /* opacity: 0.5; */
 }
 
@@ -17,9 +10,25 @@
 
 .hero-container {
   height: 812px;
-  padding: 200px 32px 215px;
+  padding: 280px 20px 215px;
   /* padding-top: 200px;
   padding-bottom: 215px; */
+  background-image: url(/img/hero-mob-1x.jpg);
+  background-repeat: no-repeat;
+  position: center;
+  background-size: cover;
+  background-position: center;
+  height: 812px;
+  top: -58px;
+  z-index: -1;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .hero-container {
+    background-image: url(/img/hero-mob-2x.jpg);
+  }
 }
 
 .hero-heading {
