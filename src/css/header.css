@@ -27,6 +27,7 @@
   width: 320px;
   margin-left: 25px;
   margin-right: 25px;
+  margin: 0 auto;
 }
 .header-logo {
   font-weight: 500;
@@ -36,8 +37,9 @@
 }
 .header-btn {
   background-color: transparent;
-  padding: 5px;
+  padding: 17px;
   border: none;
+  margin-left: auto;
 }
 .header-icon {
   display: flex;
@@ -183,7 +185,10 @@
     margin-top: 32px;
   }
   .header-wrap {
-    width: 768px;
+    min-width: 768px;
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 15px;
   }
   .header-btn {
     display: none;
@@ -210,5 +215,10 @@
     min-width: 1280px; */
   .header-wrap {
     width: 1280px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header-wrap {
+    width: 1440px;
   }
 }
