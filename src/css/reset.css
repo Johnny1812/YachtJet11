@@ -39,14 +39,13 @@ p:last-child {
   margin-bottom: 0;
 }
 
-body {
+:root {
   font-family: Inter, Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
   color: #242424;
   background-color: #0e1823;
-
 }
 
 .container {
