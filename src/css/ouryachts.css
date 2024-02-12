@@ -1,9 +1,9 @@
 .ouryachts {
-    background: #0e1823;
+    padding: 80px 0;
 }
 
 .ouryachts-container {
-    padding: 80px 0;
+    
     margin: 0 auto;
 }
 
@@ -81,10 +81,12 @@
 
 .ouryachts-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    align-items: center;
 }
 
 .ouryachts-second-list {
+    display: block;
     font-size: 14px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -94,6 +96,7 @@
 }
 
 .ouryachts-third-list {
+    display: block;
     font-size: 14px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -142,10 +145,11 @@
     display: none;
     }
 
-    .ouryachts-container {
+    .ouryachts {
         padding-top: 150px;
         padding-bottom: 150px;
     }
+
 
     .ouryachts-title {
         font-weight: 500;
