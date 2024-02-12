@@ -1,12 +1,11 @@
-.about {
-    margin-bottom: 80px;
-}
+
 
 .aboutus-wrap{
     border-radius: 24px;
     width: 100%;
     background-color: #fbfbfb;
     padding-top: 40px;
+    background-size: cover;
 }
 
 .aboutus-text{
@@ -46,12 +45,10 @@
 
 
 @media screen and (min-width: 768px) {
-    .about {
-        margin-bottom: 150px;
-    }
-
+    
     .aboutus-wrap {
         padding-top: 50px;
+        border-radius: 24px;
     }
 
     .aboutus-text {
@@ -78,6 +75,10 @@
         font-size: 13px;
         line-height: 1.15;
     }
+/* 
+    .aboutus-img {
+        box-shadow: 0 2px 0 0 #1b414b;
+    } */
 }
 
 @media screen and (min-width: 1280px) {
