@@ -7,6 +7,9 @@
   margin: 0 auto;
   width: 100%;
 }
+.footer-nav-soc {
+  margin-bottom: 40px;
+}
 .nav-footer {
   display: flex;
   flex-direction: row;
@@ -55,7 +58,6 @@
   gap: 8px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
 }
 .footer-soc-svg {
   fill: #fbfbfb;
@@ -94,7 +96,7 @@
 }
 @media screen and (min-width: 375px) {
   .footer {
-    margin: 0 10px;
+    padding: 0 10px;
   }
   .footer-container {
     width: 100%;
@@ -104,8 +106,8 @@
 }
 @media screen and (min-width: 768px) {
   .footer {
-    margin-right: 16px;
-    margin-left: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
   .footer-container {
     padding: 50px 50px 20px;
@@ -147,8 +149,8 @@
 }
 @media screen and (min-width: 1280px) {
   .footer {
-    margin-right: 25px;
-    margin-left: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
   }
   .footer-container {
     padding-right: 75px;
