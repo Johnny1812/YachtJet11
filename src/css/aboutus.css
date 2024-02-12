@@ -49,6 +49,7 @@
     .aboutus-wrap {
         padding-top: 50px;
         border-radius: 24px;
+        height: 675px;
     }
 
     .aboutus-text {
@@ -75,10 +76,7 @@
         font-size: 13px;
         line-height: 1.15;
     }
-/* 
-    .aboutus-img {
-        box-shadow: 0 2px 0 0 #1b414b;
-    } */
+
 }
 
 @media screen and (min-width: 1280px) {
