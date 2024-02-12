@@ -1,37 +1,64 @@
 .ouryachts {
-    background: #0e1823;
+    padding: 80px 0;
 }
 
 .ouryachts-container {
-    padding: 80px 0;
+    
+    margin: 0 auto;
 }
 
 .ouryachts-title {
     text-align: center;
-    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 28px;
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.ouryachts-card {
-    background: #fbfbfb;
-    padding: 16px;
+.ouryachts-common-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 40px;
+}
+
+.ouryachts-unit {
+    width: 100%;
+    background-color: #fbfbfb;
     border-radius: 24px;
-    margin-bottom: 40px;
+    padding: 16px 16px 32px 16px;
 }
 
 .ouryachts-imeg {
-    border-radius: 24px;
     margin-bottom: 32px;
-    max-width: 302px;
+    border-radius: 24px;
+}
+
+.ouryachts-box {
+    padding: 0 16px;
+}
+
+.ouryachts-chapter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.ouryachts-chapter::after {
+    content: '';
+    width: 272px;
+    height: 1px;
+    display: block;
+    background-color: rgba(4, 3, 6, 0.1);
+    margin-bottom: 16px;
 }
 
 .ouryachts-item-first {
-    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.18;
@@ -41,24 +68,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 16px;
-    gap: 16px;
 }
-
-.ouryachts-item-first::after {
-    content: '';
-    width: 272px;
-    height: 1px;
-    display: block;
-    background-color: rgba(4, 3, 6, 0.1);
-    margin-bottom: 16px;
-}
-
-
 
 .ouryachts-item-second {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
     font-size: 12px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
@@ -69,13 +81,12 @@
 
 .ouryachts-list {
     display: flex;
-    justify-content: space-between;
-    padding: 0 16px 16px 16px;
+    justify-content: space-between; 
+    align-items: center;
 }
 
 .ouryachts-second-list {
-font-family: "Inter", sans-serif;
-    font-weight: 400;
+    display: block;
     font-size: 14px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -85,8 +96,7 @@ font-family: "Inter", sans-serif;
 }
 
 .ouryachts-third-list {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    display: block;
     font-size: 14px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -104,7 +114,6 @@ font-family: "Inter", sans-serif;
     width: 141px;
     height: 46px;
     background-color: transparent;
-    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
@@ -136,13 +145,13 @@ font-family: "Inter", sans-serif;
     display: none;
     }
 
-    .ouryachts-container {
-        max-width: 768px;
-        padding: 150px 32px;
+    .ouryachts {
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
 
+
     .ouryachts-title {
-        font-family: "Inter", sans-serif;
         font-weight: 500;
         font-size: 48px;
         line-height: 1;
@@ -150,6 +159,7 @@ font-family: "Inter", sans-serif;
         text-align: center;
         color: #fbfbfb;
         margin-bottom: 75px;
+        width: 645px;
     }
 
     .ouryachts-unseen-text {
@@ -158,7 +168,6 @@ font-family: "Inter", sans-serif;
     }
 
     .ouryachts-common-list {
-        display: flex;
         gap: 32px;
         margin-bottom: 50px;
     }
@@ -189,34 +198,28 @@ font-family: "Inter", sans-serif;
 @media screen and (min-width: 1280px) {
 
     .ouryachts-container {
-    max-width: 1280px;
-    padding: 150px 32px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     }
+
 
     .belle-anna-yahts {
     display: block;
     }
 
     .ouryachts-title {
-    margin-left: auto;
-    margin-right: auto;
     width: 714px;
     }
 
-    .ouryachts-imeg {
-        max-width: 100%;
-        height: 268px;
-    }
-
     .ouryachts-common-list {
-        gap: 25px;
-    }
-
-    .ouryachts-card {
-        justify-content: center;
+    gap: 25px;
+}
+    
+    .ouryachts-chapter::after {
+        width: 313px;
     }
 
     .ouryachts-unit {
-        max-width: 377px;
+        width: calc(100% - 50px) / 3;
     }
 }

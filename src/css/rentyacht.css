@@ -1,5 +1,4 @@
 body {
-    font-family: "Inter", "Roboto" sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     overflow-x: hidden;
@@ -37,12 +36,12 @@ button {
 }
 
 .rentyacht {
-    padding: 80px 0;
+    margin: 80px 0;
     background-color: #0e1823;;
 }
 
 .container {
-    max-width: 320px;
+    max-width: 335px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
@@ -70,7 +69,6 @@ button {
 }
 
 .rentyacht-form-textarea-wrap {
-    position: relative;
     margin-bottom: 40px;
 }
 
@@ -140,7 +138,7 @@ button {
 @media screen and (min-width: 768px) {
 
     .rentyacht {
-        padding: 150px 0;
+        margin: 150px 0;
     }
 
     .container {
@@ -159,6 +157,10 @@ button {
         font-size: 14px;
         line-height: 1.29;
         height: 54px;
+    }
+
+    .rentyacht-form-textarea-wrap {
+        margin-bottom: 50px;
     }
 
     .textarea {
@@ -201,6 +203,7 @@ button {
         flex-direction: row-reverse;
         gap: 50px;
         justify-content: center;
+        align-items: center;
     }
 
     .rentyacht-img {
