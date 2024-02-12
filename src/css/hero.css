@@ -49,6 +49,10 @@
   margin-bottom: 38px;
 }
 .hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -62,7 +66,7 @@
   height: 46px;
 
   margin: 0 auto;
-  display: block;
+  /* display: block; */
 }
 
 .hero-btn:hover {
@@ -102,10 +106,10 @@
     margin: 0 auto;
     margin-bottom: 38px;
   }
+
   .hero-btn {
     font-size: 18px;
     line-height: 1.1;
-
     width: 179px;
     height: 52px;
   }
