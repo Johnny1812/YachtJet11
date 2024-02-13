@@ -61,8 +61,7 @@ button {
     margin-bottom: 40px;
 }
 
-.rentyacht-form {
-}
+
 
 .rentyacht-form-input-wrap {
     margin-bottom: 18px;
@@ -150,6 +149,7 @@ button {
 
     .rentyacht-section-title {
         font-size: 48px;
+        margin-bottom: 50px;
     }
 
     .rentyacht-form-input {
