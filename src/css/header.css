@@ -1,5 +1,4 @@
-.header-container {
-}
+
 .header-wrap {
   position: fixed;
   width: 100%;
@@ -110,9 +109,7 @@ header-link-active:focus {
 }
 
 /* Styling for the header content */
-.header-model {
-  /* Add any specific styles for the header content */
-}
+
 
 /* Styling for the header background */
 .header-mobile-background {
@@ -208,9 +205,7 @@ header-link-active:focus {
   }
 }
 @media screen and (min-width: 768px) {
-  .header-container {
-  
-  }
+
   .header-wrap {
     min-width: 768px;
     display: flex;
