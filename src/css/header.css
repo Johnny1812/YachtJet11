@@ -1,7 +1,6 @@
 
 .header-wrap {
   position: fixed;
-  width: 100%;
   top: 40px;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -12,6 +11,7 @@
   border: 1px solid #fbfbfb;
   border-radius: 8px;
   padding: 10px 29px;
+
   width: 320px;
   margin: 0 auto;
   z-index: 9;
@@ -57,9 +57,9 @@
   background-color: rgba(27, 65, 75, 0.5);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .header-link-active {
+.header-link-active {
   background-color: #1b414b;
-} */
+}
 .header-social-icons {
   display: none;
 }
@@ -86,8 +86,6 @@
 .header-contacts-icon:active {
   fill: #062730;
 }
-
-/* General styling for the header-mobile container */
 .header-mobile {
   width: 100%;
   height: 100%;
@@ -105,17 +103,13 @@
   z-index: 9;
 }
 
-/* Styling when the is-open class is applied */
 .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
-
-/* Styling for the header content */
-
-
-/* Styling for the header background */
+.header-model {
+}
 .header-mobile-background {
   background-color: #fbfbfb;
   display: flex;
@@ -127,16 +121,14 @@
   border-radius: 8px;
 }
 
-/* Styling for the mobile navigation menu */
 .header-mobile-navigation {
   display: flex;
   flex-direction: column;
-  /*gap: 4px;*/
   align-items: center;
   justify-content: center;
 }
 
-/* Styling for the logo */
+
 .header-mobile-logo {
   font-weight: 500;
   font-size: 14px;
@@ -144,15 +136,13 @@
   color: #1b414b;
 }
 
-/* Styling for the close button */
+
 .header-mobile-close {
   margin-left: auto;
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
-
-/* Styling for the menu items */
 .header-mobile-menu {
   display: flex;
   flex-direction: column;
@@ -174,8 +164,6 @@
   margin-bottom: 4px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* Styling for contact information */
 .header-mobile-contacts {
   display: flex;
   justify-content: center;
@@ -186,7 +174,6 @@
   background-color: #1b414b;
 }
 
-/* Styling for the contact icons */
 .header-mobile-contacts-list {
   display: flex;
   align-items: center;
@@ -198,24 +185,20 @@
   fill: #fbfbfb;
 }
 
-/* Styling for the close icon */
+
 .header-mobile-close-icon {
   fill: #055545;
 }
 
 @media screen and (max-width: 375px) {
-  .header-wrap {
-    min-width: 375px;
-  }
 }
 @media screen and (min-width: 768px) {
-
+  .header-container {
+  }
   .header-wrap {
     min-width: 704px;
     display: flex;
-    /* align-items: baseline; */
     align-items: center;
-    /* padding-bottom: 15px; */
   }
   .header-logo {
     font-size: 20px;
@@ -244,8 +227,7 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  /* .container {
-    min-width: 1280px; */
+
   .header-wrap {
     width: 1280px;
   }
