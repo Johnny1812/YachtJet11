@@ -2,7 +2,6 @@
 }
 .header-wrap {
   position: fixed;
-  width: 100%;
   top: 40px;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -12,7 +11,7 @@
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
   border-radius: 8px;
-  padding: 15px 29px;
+  padding: 10px;
   width: 320px;
   margin: 0 auto;
   z-index: 9;
@@ -101,19 +100,15 @@
   z-index: 9;
 }
 
-/* Styling when the is-open class is applied */
 .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 
-/* Styling for the header content */
 .header-model {
-  /* Add any specific styles for the header content */
 }
 
-/* Styling for the header background */
 .header-mobile-background {
   background-color: #fbfbfb;
   display: flex;
@@ -125,7 +120,6 @@
   border-radius: 8px;
 }
 
-/* Styling for the mobile navigation menu */
 .header-mobile-navigation {
   display: flex;
   flex-direction: column;
@@ -202,13 +196,9 @@
 }
 
 @media screen and (max-width: 375px) {
-  .header-wrap {
-    min-width: 375px;
-  }
 }
 @media screen and (min-width: 768px) {
   .header-container {
-  
   }
   .header-wrap {
     min-width: 768px;
