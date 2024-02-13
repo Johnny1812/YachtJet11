@@ -84,6 +84,7 @@ button {
     line-height: 1.17;
     color: #FFFFFF;
     background-color: #0e1823;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea {
@@ -100,11 +101,13 @@ button {
     color: #FFFFFF;
     background-color: #0e1823;
     resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rentyacht-form-input::placeholder,
 .textarea::placeholder {
     color: rgba(251, 251, 251, 0.2);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rentyacht-form-input:focus::placeholder,
@@ -130,6 +133,8 @@ button {
     letter-spacing: 0.02em;
     color: #fbfbfb;
     cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rentyacht-form-button:hover,
@@ -224,5 +229,8 @@ button {
 
     .rentyacht-form-wrap {
         margin: 0;
+    }
+    .rentyacht-form-textarea-wrap {
+        margin-bottom: 20px;
     }
 }
