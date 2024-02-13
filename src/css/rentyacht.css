@@ -1,5 +1,4 @@
 body {
-    font-family: "Inter", "Roboto" sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     overflow-x: hidden;
@@ -37,12 +36,12 @@ button {
 }
 
 .rentyacht {
-    padding: 80px 0;
+    padding-bottom: 80px;
     background-color: #0e1823;;
 }
 
 .container {
-    max-width: 320px;
+    max-width: 335px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
@@ -62,15 +61,13 @@ button {
     margin-bottom: 40px;
 }
 
-.rentyacht-form {
-}
+
 
 .rentyacht-form-input-wrap {
     margin-bottom: 18px;
 }
 
 .rentyacht-form-textarea-wrap {
-    position: relative;
     margin-bottom: 40px;
 }
 
@@ -86,6 +83,7 @@ button {
     line-height: 1.17;
     color: #FFFFFF;
     background-color: #0e1823;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea {
@@ -102,6 +100,18 @@ button {
     color: #FFFFFF;
     background-color: #0e1823;
     resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rentyacht-form-input::placeholder,
+.textarea::placeholder {
+    color: rgba(251, 251, 251, 0.2);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rentyacht-form-input:focus::placeholder,
+.textarea:focus::placeholder {
+    color: rgba(251, 251, 251, 0.5);
 }
 
 .rentyacht-form-input:focus,
@@ -122,6 +132,8 @@ button {
     letter-spacing: 0.02em;
     color: #fbfbfb;
     cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rentyacht-form-button:hover,
@@ -140,7 +152,7 @@ button {
 @media screen and (min-width: 768px) {
 
     .rentyacht {
-        padding: 150px 0;
+        padding-bottom: 150px;
     }
 
     .container {
@@ -152,13 +164,18 @@ button {
 
     .rentyacht-section-title {
         font-size: 48px;
+        margin-bottom: 50px;
     }
 
     .rentyacht-form-input {
-        max-width: 473px;
+        width: 473px;
         font-size: 14px;
         line-height: 1.29;
         height: 54px;
+    }
+
+    .rentyacht-form-textarea-wrap {
+        margin-bottom: 50px;
     }
 
     .textarea {
@@ -199,8 +216,8 @@ button {
 
     .rentyacht-section-wrap {
         flex-direction: row-reverse;
-        gap: 50px;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .rentyacht-img {
