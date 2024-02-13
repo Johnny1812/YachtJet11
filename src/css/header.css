@@ -12,20 +12,20 @@
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
   border-radius: 8px;
-  padding: 15px 29px;
+  padding: 10px 29px;
   width: 320px;
   margin: 0 auto;
   z-index: 9;
 }
 .header-logo {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 14px;
   letter-spacing: -0.03em;
   color: #1b414b;
 }
 .header-btn {
   background-color: transparent;
-  padding: 17px;
+  padding: 10px;
   border: none;
   margin-left: auto;
 }
@@ -208,13 +208,16 @@
 }
 @media screen and (min-width: 768px) {
   .header-container {
-  
   }
   .header-wrap {
-    min-width: 768px;
+    min-width: 704px;
     display: flex;
-    align-items: baseline;
-    padding-bottom: 15px;
+    /* align-items: baseline; */
+    align-items: center;
+    /* padding-bottom: 15px; */
+  }
+  .header-logo {
+    font-size: 20px;
   }
   .header-btn {
     display: none;

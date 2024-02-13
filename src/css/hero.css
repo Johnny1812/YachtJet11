@@ -69,7 +69,9 @@
   /* display: block; */
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn:active {
   background: #fbfbfb;
   color: #1b414b;
 }
