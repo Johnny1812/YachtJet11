@@ -101,6 +101,16 @@ button {
     resize: none;
 }
 
+.rentyacht-form-input::placeholder,
+.textarea::placeholder {
+    color: rgba(251, 251, 251, 0.2);
+}
+
+.rentyacht-form-input:focus::placeholder,
+.textarea:focus::placeholder {
+    color: rgba(251, 251, 251, 0.5);
+}
+
 .rentyacht-form-input:focus,
 .textarea:focus {
     border-color: rgba(251, 251, 251, 0.5);
@@ -153,7 +163,7 @@ button {
     }
 
     .rentyacht-form-input {
-        max-width: 473px;
+        width: 473px;
         font-size: 14px;
         line-height: 1.29;
         height: 54px;
@@ -201,8 +211,7 @@ button {
 
     .rentyacht-section-wrap {
         flex-direction: row-reverse;
-        gap: 50px;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
 
