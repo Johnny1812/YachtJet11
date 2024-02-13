@@ -82,6 +82,11 @@
 .header-contacts-icon:focus {
   fill: #062730;
 }
+
+.header-contacts-icon:active {
+  fill: #062730;
+}
+
 /* General styling for the header-mobile container */
 .header-mobile {
   width: 100%;
@@ -232,6 +237,9 @@
     background-color: #1b414b;
   }
   .header-link:focus {
+    background-color: #1b414b;
+  }
+  .header-link:active {
     background-color: #1b414b;
   }
 }
