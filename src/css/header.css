@@ -58,7 +58,8 @@
   background-color: rgba(27, 65, 75, 0.5);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-link-active {
+.header-link-active:hover,
+header-link-active:focus {
   background-color: #1b414b;
 }
 .header-social-icons {
@@ -229,12 +230,12 @@
   .header-mobile {
     display: none;
   }
-  .header-link:hover {
+  /*.header-link:hover {
     background-color: #1b414b;
   }
   .header-link:focus {
     background-color: #1b414b;
-  }
+  } */
 }
 @media screen and (min-width: 1280px) {
   /* .container {
