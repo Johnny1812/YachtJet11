@@ -3,7 +3,6 @@
 }
 
 .ouryachts-container {
-    
     margin: 0 auto;
 }
 
@@ -19,10 +18,13 @@
     margin-right: auto;
 }
 
+.ouryachts-card {
+    margin-bottom: 40px;
+}
+
 .ouryachts-common-list {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto 40px;
 }
 
 .ouryachts-unit {
@@ -167,9 +169,12 @@
         display: none;
     }
 
+    .ouryachts-card {
+    margin-bottom: 50px;
+}
+
     .ouryachts-common-list {
         gap: 32px;
-        margin-bottom: 50px;
     }
 
     .ouryachts-item-first {
@@ -196,12 +201,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-
-    .ouryachts-container {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    }
-
 
     .belle-anna-yahts {
     display: block;
