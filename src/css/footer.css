@@ -27,19 +27,12 @@
 .footer-menu-item {
   display: flex;
   justify-content: center;
-  /* width: 66px; */
-  /* padding: 12px 15px; */
   align-items: center;
   background: rgba(251, 251, 251, 0.3);
   border-radius: 8px;
   color: #fbfbfb;
 }
-/* .footer-menu-item:hover,
-.footer-menu-item:active,
-.footer-menu-item:focus {
-  background-color: #fbfbfb;
-  color: #1b414b;
-} */
+
 .footer-menu-link {
   border-radius: 8px;
   font-weight: 400;
@@ -50,7 +43,6 @@
   padding: 12px 15px;
 }
 .footer-menu-link:hover,
-.footer-menu-link:active,
 .footer-menu-link:focus {
   background-color: #fbfbfb;
   color: #1b414b;
