@@ -45,11 +45,13 @@
 
 
 @media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
     
     .aboutus-wrap {
         padding-top: 50px;
-        border-radius: 24px;
-        height: 675px;
+        border-radius: 30px;
     }
 
     .aboutus-text {
@@ -80,6 +82,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .container{
+        max-width: 1280px;
+    }
 
     .aboutus-text {
         display: flex;
