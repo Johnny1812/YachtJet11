@@ -57,9 +57,10 @@
   background-color: rgba(27, 65, 75, 0.5);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-link-active {
+/*.header-link-active {
   background-color: #1b414b;
-}
+}*/
+
 .header-social-icons {
   display: none;
 }
@@ -108,8 +109,7 @@
   visibility: visible;
   pointer-events: auto;
 }
-.header-model {
-}
+
 .header-mobile-background {
   background-color: #fbfbfb;
   display: flex;
@@ -193,8 +193,7 @@
 @media screen and (max-width: 375px) {
 }
 @media screen and (min-width: 768px) {
-  .header-container {
-  }
+
   .header-wrap {
     min-width: 704px;
     display: flex;
