@@ -1,14 +1,15 @@
-.about {
-}
-.container {
 
-}
 
 .aboutus-wrap{
     border-radius: 24px;
     width: 100%;
     background-color: #fbfbfb;
     padding-top: 40px;
+    background-size: cover;
+}
+
+.aboutus-text{
+    margin-bottom: 20px;
 }
 
 .aboutus-head {
@@ -21,7 +22,7 @@
 }
 
 .aboutus-description {
-    margin: 0 20px 20px 20px;
+    margin: 0 20px;
 
 }
 
@@ -41,46 +42,76 @@
     opacity: 0.4;
 }
 
-@media screen and (min-width: 375px) {
-    .container {
-        width: 375px;
-        max-width: none;
-        padding: 0 32px;
-    }
-}
+
 
 @media screen and (min-width: 768px) {
     .container {
-        width: 768px;
+        max-width: 768px;
     }
-
+    
     .aboutus-wrap {
         padding-top: 50px;
+        border-radius: 30px;
+    }
+
+    .aboutus-text {
+        margin-bottom: 50px;
     }
 
     .aboutus-head {
         font-size: 48px;
         margin-left: 32px;
-        margin-right: 136px;
         margin-bottom: 50px;
+        width: 536px;
     }
 
     .aboutus-description {
-        margin: 0 316px 50px 32px;
+        margin-left: 30px;
+        width: 389px;
     }
 
     .aboutus-description-first {
         font-size: 23px;
     }
 
-        
-        
-    
-        
+    .aboutus-description-second{
+        font-size: 13px;
+        line-height: 1.15;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        width: 1280px;
+    .container{
+        max-width: 1280px;
+    }
+
+    .aboutus-text {
+        display: flex;
+        margin: 0 50px 100px 50px;
+        justify-content: space-between;
+    }
+
+    .aboutus-head {
+        margin: 0;
+        width: 537px;
+    }
+
+    .aboutus-description {
+        margin: 0;
+        width: 404px;
+    }
+
+    .aboutus-description-first{
+        width: 100%;
+    }
+
+    .aboutus-description-second{
+        width: 100%;
+    }
+
+    .aboutus-img {
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
     }
 }

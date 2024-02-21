@@ -1,5 +1,4 @@
-.header-container {
-}
+
 .header-wrap {
   position: fixed;
   top: 40px;
@@ -11,20 +10,26 @@
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
   border-radius: 8px;
+
   padding: 10px 30px;
   min-width: 288px;
+
+  padding: 10px 29px;
+
+  width: 320px;
+
   margin: 0 auto;
   z-index: 9;
 }
 .header-logo {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 14px;
   letter-spacing: -0.03em;
   color: #1b414b;
 }
 .header-btn {
   background-color: transparent;
-  padding: 7px;
+
   border: none;
   margin-left: auto;
 }
@@ -79,6 +84,9 @@
 .header-contacts-icon:focus {
   fill: #062730;
 }
+.header-contacts-icon:active {
+  fill: #062730;
+}
 .header-mobile {
   width: 100%;
   height: 100%;
@@ -102,9 +110,6 @@
   pointer-events: auto;
 }
 
-.header-model {
-}
-
 .header-mobile-background {
   background-color: #fbfbfb;
   display: flex;
@@ -119,16 +124,17 @@
 .header-mobile-navigation {
   display: flex;
   flex-direction: column;
-  gap: 4px;
   align-items: center;
   justify-content: center;
 }
+
 .header-mobile-logo {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
   color: #1b414b;
 }
+
 .header-mobile-close {
   margin-left: auto;
   background-color: transparent;
@@ -161,6 +167,12 @@
   justify-content: center;
   padding-bottom: 40px;
 }
+
+
+.header-mobile-link-blue {
+  background-color: #1b414b;
+}
+
 .header-mobile-contacts-list {
   display: flex;
   align-items: center;
@@ -171,6 +183,7 @@
 .header-mobile-contacts-icon {
   fill: #fbfbfb;
 }
+
 .header-mobile-close-icon {
   fill: #055545;
 }
@@ -178,13 +191,14 @@
 @media screen and (max-width: 375px) {
 }
 @media screen and (min-width: 768px) {
-  .header-container {
-  }
+
   .header-wrap {
-    min-width: 768px;
+    min-width: 704px;
     display: flex;
-    align-items: baseline;
-    padding-bottom: 15px;
+    align-items: center;
+  }
+  .header-logo {
+    font-size: 20px;
   }
   .header-btn {
     display: none;
@@ -205,8 +219,12 @@
   .header-link:focus {
     background-color: #1b414b;
   }
+  .header-link:active {
+    background-color: #1b414b;
+  }
 }
 @media screen and (min-width: 1280px) {
+
   .header-wrap {
     width: 1280px;
   }
